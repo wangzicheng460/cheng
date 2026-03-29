@@ -4,6 +4,7 @@ import numpy as np
 import os
 from PIL import Image
 
+Image.MAX_IMAGE_PIXELS = None
 # --- 配置页面 ---
 st.set_page_config(page_title="UC脂质代谢重构诊断系统", layout="wide")
 
